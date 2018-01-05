@@ -1,0 +1,30 @@
+{
+  "name": "@basedakp48/plugin-afk-controller",
+  "version": "1.0.0",
+  "description": "Marks connectors as \"afk\" after 5 minutes of outgoing inactivity.",
+  "license": "MIT",
+  "repository": "BasedAKP48/AFK-Controller",
+  "author": {
+    "name": "feildmaster",
+    "email": "akp48@feildmaster.com",
+    "url": "https://feildmaster.com"
+  },
+  "engines": {
+    "node": ">=6"
+  },
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "files": [
+    "src/"
+  ],
+  "keywords": [
+    "basedakp48",
+    "basedakp48-plugin"
+  ],
+  "dependencies": {
+    "@basedakp48/plugin-utils": "^1.11.0",
+    "firebase-admin": "^5.0.0"
+  },
+  "devDependencies": {}
+}
